@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0 50px;
+  background: #626262;
+  border-radius: 0;
+  max-width: 300px;
+}
+li {
+  list-style: none;
+  padding: 10px;
+}
+li > * {
+  color: #fff;
+}
+.course-progress-lesson {
+  background: #ececec;
+}
+.course-progress-lesson * {
+  color: #000;
+}
