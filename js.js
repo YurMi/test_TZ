@@ -26,7 +26,6 @@ allTitle.forEach((title) => {
 });
 
 parentUl.addEventListener("click", function (e) {
-  console.log(e.target);
   if (e.target.closest(".course-progress-module")) {
     e.stopPropagation();
     let title = e.target.closest(".course-progress-module");
